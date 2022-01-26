@@ -1,0 +1,6 @@
+Steps to importing numpy into your python program:
+
+1. open a terminal in your AWS environment.  To do this, use the "+" sign to add a tab and select "New Terminal"
+2. then run the command "pip3 install numpy".  You should see some install messages.
+3. Test this by opening a new python file, typing "import numpy" and running.  
+If you see no import error messages, you are good.

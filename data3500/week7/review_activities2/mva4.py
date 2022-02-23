@@ -15,7 +15,7 @@ i = 0
 buy = 0
 tot_profit = 0
 for price in prices:
-    if i >= 4: # 4 day moving average test
+    if i >= 4: # 4 day moving average
         avg = ( prices[i-1] + prices[i-2] + prices[i-3] + prices[i-4] ) / 4
         # print("avg: ", avg)
         if price > avg and buy == 0:

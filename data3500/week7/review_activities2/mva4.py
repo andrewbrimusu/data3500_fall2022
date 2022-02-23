@@ -15,8 +15,8 @@ i = 0
 buy = 0
 tot_profit = 0
 for price in prices:
-    if i >= 5: # 7 day moving average
-        avg = ( prices[i-1] + prices[i-2] + prices[i-3] + prices[i-4] + prices[i-5] ) / 5
+    if i >= 4: # 4 day moving average
+        avg = ( prices[i-1] + prices[i-2] + prices[i-3] + prices[i-4] ) / 4
         # print("avg: ", avg)
         if price > avg and buy == 0:
             print("buying at: ", price)

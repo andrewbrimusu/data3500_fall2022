@@ -1,6 +1,6 @@
 print("hello")
 
-f = open("/home/ubuntu/environment/simplemovingaverage/GOOG.txt", "r")
+f = open("/home/ubuntu/environment/data3500/week7/review_activities2/GOOG.txt", "r")
 lines = f.readlines()
 print("lines: ", lines)
 

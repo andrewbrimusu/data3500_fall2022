@@ -14,6 +14,7 @@ The content is organized by weeks in the semester.  Each week you should watch t
 
 The code from the content videos, and the solutions to each programming activities is provided in sub folders, for each week.
 
+The Content videos themselves, and the HW assignment descriptions and submission is on the course Canvas page.
 
 
          ___        ______     ____ _                 _  ___  
